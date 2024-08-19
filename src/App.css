@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  background: black;
 }
 
 .container {
@@ -9,7 +11,7 @@ body {
   /* width: auto; */
   min-height: 100vh;
   margin: 0 auto;
-  background: black;
+  /* background: black; */
 }
 
 h1,
@@ -40,5 +42,5 @@ button {
 
 .App {
   color: white;
-  background-color: black;
+  /* background-color: black; */
 }

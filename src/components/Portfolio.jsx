@@ -22,12 +22,10 @@ export default function Portfolio() {
           modifier: 1,
           slideShadows: true,
         }}
-
-
-        // autoplay={{
-        //   delay: 2000,
-        //   disableOnInteraction: false
-        // }}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false
+        }}
         pagination={false}
         navigation={{
           nextEl: ".swiper-button-next",

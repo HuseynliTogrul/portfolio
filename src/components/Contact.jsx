@@ -29,7 +29,8 @@ function Contact() {
             <li>
               <FaLinkedin />
               <p>
-                https://www.linkedin.com/in/to%C4%9Frul-h%C3%BCseynli-2baa28241/
+                www.linkedin.com
+                {/* https://www.linkedin.com/in/to%C4%9Frul-h%C3%BCseynli-2baa28241/ */}
               </p>
             </li>
           </ul>

@@ -24,7 +24,7 @@ function About() {
       aboutInfo.style.display = "none";
       aboutModal.style.display = "block";
       navbar.style.display = "none"
-      container.style.paddingTop = "100px";
+      container.style.paddingTop = "50px";
       container.style.minHeight = "calc(100vh - 100px)";
     });
 

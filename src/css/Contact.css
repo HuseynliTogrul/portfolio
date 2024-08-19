@@ -16,6 +16,12 @@
 
 .contactWrapper {
   display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.contactLeft{
+  width: 100%;
 }
 
 .contactLeft ul {
@@ -26,7 +32,6 @@
 }
 
 .contactLeft ul li {
-  width: 75%;
   font-size: 17px;
   /* width: 100%; */
   display: flex;

@@ -1,8 +1,16 @@
 .navbar {
-    padding-right: 30px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
 
 .logo img {
@@ -15,6 +23,7 @@
     display: flex;
     gap: 30px;
     font-size: 20px;
+    z-index: 100;
 }
 
 .navListLi {
@@ -24,4 +33,66 @@
 
 .navListLi:hover {
     color: #eb4a4c;
+}
+
+.menubar {
+    cursor: pointer;
+}
+
+.closeMenu {
+    display: none;
+    cursor: pointer;
+    z-index: 101;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.closeMenuChange {
+    width: 50%;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    display: flex;
+    background: #141414;
+    padding: 90px 10px 10px 20px;
+    flex-direction: column;
+    margin-right: -20px;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navList {
+        display: none;
+    }
+
+    .navbar {
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width:1024px) {
+    .menubar {
+        display: none !important;
+    }
+
+    .navList {
+        display: flex;
+    }
+
+    .closeMenu {
+        display: none;
+    }
+
+    .closeMenuChange {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .closeMenuChange {
+        width: 30%;
+    }
 }

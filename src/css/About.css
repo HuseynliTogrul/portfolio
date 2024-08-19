@@ -1,10 +1,10 @@
 .about {
     /* margin-top: 40px; */
-    padding-left: 35px;
+    padding: 0 35px;
     display: flex;
     justify-content: center;
     gap: 30px;
-    width: 85%;
+    /* width: 85%; */
     position: relative;
 }
 
@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .aboutImg img {
@@ -237,6 +237,8 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .langValue {
@@ -318,7 +320,7 @@
 .closeIcon {
     position: absolute;
     top: 0;
-    right: -60px;
+    right: -20px;
     font-size: 20px;
     border: 2px solid;
     padding: 7px;
@@ -327,8 +329,62 @@
     transition: all 0.3 linear;
 }
 
+@media screen and (max-width: 768px) {
+    .aboutModal {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .closeIcon {
+        top: 15px;
+        right: 50px;
+    }
+
+    .aboutMeLeft,
+    .aboutMeRight {
+        position: static;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .aboutMeRight {
+        margin-left: 0;
+        border-left: none;
+        margin-top: 25px;
+    }
+
+    .aboutMeLeft a {
+        position: relative;
+        bottom: -25px;
+        left: 25px;
+        margin-top: 20px;
+    }
+
+    .closeIcon {
+        font-size: 15px;
+    }
+
+    .listEdu {
+        flex-direction: column;
+        align-items: normal;
+        gap: 20px;
+    }
+
+    .eduPlace {
+        width: 100%;
+    }
+}
+
+
 
 @media screen and (max-width: 1024px) {
+    .about {
+        /* width: 100%; */
+    }
+
     .aboutInfo {
         flex-direction: column;
     }
@@ -346,10 +402,22 @@
     }
 
     .aboutImg img {
-        min-width: 100%;
+        width: 100%;
     }
 
     .about {
         padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .aboutImg img {
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (max-width:1024px) {
+    .aboutImg img {
+        height: 500px;
     }
 }
