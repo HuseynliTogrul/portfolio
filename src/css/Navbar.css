@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.navList {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.navListLi {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.navListLi:hover {
+    color: #eb4a4c;
+}

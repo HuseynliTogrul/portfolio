@@ -1,0 +1,47 @@
+/* Import Swiper styles */
+@import "swiper/css";
+@import "swiper/css/effect-cube";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+:root {
+  --swiper-pagination-color: #eb4a4c;
+}
+
+.sliderIcon {
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  transition: all 0.3s linear;
+}
+
+.swiperIcon {
+  color: #ababab;
+  transition: all 0.3s linear;
+}
+
+.swiperIcon:hover {
+  color: #eb4a4c;
+  cursor: pointer;
+}
