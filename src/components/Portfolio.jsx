@@ -4,6 +4,7 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/module
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import "../css/Portfolio.css";
+import vegist from "../images/project1.png"
 
 export default function Portfolio() {
   return (
@@ -12,8 +13,8 @@ export default function Portfolio() {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={3}
-        initialSlide={1} 
+        // slidesPerView={3}
+        initialSlide={1}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -21,23 +22,36 @@ export default function Portfolio() {
           modifier: 1,
           slideShadows: true,
         }}
-        autoplay={{
-          delay: 2000,
-          disableOnInteraction: false
-        }}
+
+
+        // autoplay={{
+        //   delay: 2000,
+        //   disableOnInteraction: false
+        // }}
         pagination={false}
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         }}
+        breakpoints={{
+          700: {
+            slidesPerView: 3,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }}
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img
+          {/* <a href="https://github.com/HuseynliTogrul/Vegist-Final-Front.git"> */}
+          <img className="slideImg"
             src="https://swiperjs.com/demos/images/nature-1.jpg"
+            // src={vegist}
             alt="Nature 1"
           />
+          {/* </a> */}
         </SwiperSlide>
         <SwiperSlide>
           <img
@@ -71,3 +85,4 @@ export default function Portfolio() {
     </>
   );
 }
+

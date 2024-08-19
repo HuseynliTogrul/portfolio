@@ -327,6 +327,29 @@
     transition: all 0.3 linear;
 }
 
-/* .closeIcon:hover {
-    border-radius: 50%;
-} */
+
+@media screen and (max-width: 1024px) {
+    .aboutInfo {
+        flex-direction: column;
+    }
+
+    .aboutText {
+        width: 100%;
+    }
+
+    .aboutInfo {
+        align-items: flex-start;
+    }
+
+    .aboutImg {
+        width: 100%;
+    }
+
+    .aboutImg img {
+        min-width: 100%;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+}

@@ -1,3 +1,7 @@
+.contact {
+  padding-top: 30px;
+}
+
 .contact h2 {
   margin-top: 30px;
   border-bottom: 1px solid #a2a2a229;
@@ -76,4 +80,37 @@
 .contactBtn:hover {
   background-color: white;
   color: black;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: auto;
+  }
+
+  .contactWrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contactLeft {
+    padding: 0 20px;
+    width: auto;
+  }
+
+  .contactLeft ul li {
+    width: auto;
+  }
+
+  .contactRight {
+    padding: 0 20px;
+  }
+
+  .contact h2 {
+    padding: 0 20px 15px 20px;
+  }
+
+  .contactInput {
+    flex-direction: column;
+  }
 }

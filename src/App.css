@@ -6,7 +6,10 @@ body {
 
 .container {
   width: 1000px;
+  /* width: auto; */
+  min-height: 100vh;
   margin: 0 auto;
+  background: black;
 }
 
 h1,
@@ -36,7 +39,6 @@ button {
 }
 
 .App {
-  background-color: black;
   color: white;
-  height: 100vh;
+  background-color: black;
 }

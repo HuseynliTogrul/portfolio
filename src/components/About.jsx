@@ -25,6 +25,7 @@ function About() {
       aboutModal.style.display = "block";
       navbar.style.display = "none"
       container.style.paddingTop = "100px";
+      container.style.minHeight = "calc(100vh - 100px)";
     });
 
     closeIcon.addEventListener("click", () => {
@@ -32,6 +33,7 @@ function About() {
       aboutModal.style.display = "none";
       navbar.style.display = "flex"
       container.style.paddingTop = "0";
+      container.style.minHeight = "100vh";
     })
   }, []);
 
