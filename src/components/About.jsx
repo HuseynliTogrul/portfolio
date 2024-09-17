@@ -46,11 +46,12 @@ function About() {
         </div>
         <div className='aboutText'>
           <h2>Huseynli <span>Togrul</span></h2>
-          <h4><span>Web</span> Developer</h4>
-          <p>My name is <span>Huseynli Togrul</span>.
-            I am a web developer, and I'm very passionate and dedicated to my work.
-            With 2 years experience as a professional a frontend developer,
-            I have acquired the skills and knowledge.</p>
+          <h4><span>Front-End</span> Developer</h4>
+          <p>
+            {/* I am <span>Huseynli Togrul.</span> */}
+            My passion for technology and deep enthusiasm for this field led me to
+            venture into the world of programming. I approaching tasks with creativity.
+            Continuously developing my skills is a significant motivator for me.</p>
           <button className='aboutBtn'>Learn More</button>
         </div>
       </div>
@@ -94,11 +95,10 @@ function About() {
           <div className="aboutMe">
             <h3>About <span>Me</span></h3>
             <p>Hello everybody!
-              My name is <span>Huseynli Togrul</span> .
-              I graduated from Azerbaijan State Oil and Industry University with a bachelor's degree in computer
-              engineering.
-              I am a Web designer, and I'm very passionate and dedicated to my work.
-              I know office programs and the frontend field.
+              I am <span>Huseynli Togrul.</span>
+              I know office programs and the Fronte-End field.
+              I studied Fronte-End in Algorithmic and Pragmatech courses.
+              I studied Full-Stack at Code Academy.I have experience in Embawood MMC company
             </p>
           </div>
           <div className="progSkills">
@@ -107,7 +107,7 @@ function About() {
               <li>
                 <div className="progValue">
                   <p>Html</p>
-                  <span>85%</span>
+                  <span>95%</span>
                 </div>
                 <div className="backg">
                   <div className="progBackg"></div>
@@ -116,7 +116,7 @@ function About() {
               <li>
                 <div className="progValue">
                   <p>Css</p>
-                  <span>85%</span>
+                  <span>95%</span>
                 </div>
                 <div className="backg">
                   <div className="progBackg"></div>
@@ -133,8 +133,8 @@ function About() {
               </li>
               <li>
                 <div className="progValue">
-                  <p>React</p>
-                  <span>85%</span>
+                  <p>React js</p>
+                  <span>70%</span>
                 </div>
                 <div className="backg">
                   <div className="progBackg"></div>
@@ -143,7 +143,7 @@ function About() {
               <li>
                 <div className="progValue">
                   <p>Bootstrap</p>
-                  <span>85%</span>
+                  <span>95%</span>
                 </div>
                 <div className="backg">
                   <div className="progBackg"></div>
@@ -152,7 +152,7 @@ function About() {
               <li>
                 <div className="progValue">
                   <p>Tailwind</p>
-                  <span>85%</span>
+                  <span>95%</span>
                 </div>
                 <div className="backg">
                   <div className="progBackg"></div>
@@ -161,7 +161,25 @@ function About() {
               <li>
                 <div className="progValue">
                   <p>Sass</p>
-                  <span>85%</span>
+                  <span>95%</span>
+                </div>
+                <div className="backg">
+                  <div className="progBackg"></div>
+                </div>
+              </li>
+              <li>
+                <div className="progValue">
+                  <p>Next js</p>
+                  <span>50%</span>
+                </div>
+                <div className="backg">
+                  <div className="progBackg"></div>
+                </div>
+              </li>
+              <li>
+                <div className="progValue">
+                  <p>Vite js</p>
+                  <span>70%</span>
                 </div>
                 <div className="backg">
                   <div className="progBackg"></div>
@@ -175,7 +193,7 @@ function About() {
               <li>
                 <div className="circle">
                   <div className="langValue">
-                    85%
+                    National
                   </div>
                 </div>
                 <p>Azerbaijan</p>
@@ -183,7 +201,7 @@ function About() {
               <li>
                 <div className="circle">
                   <div className="langValue">
-                    85%
+                    Intermediate
                   </div>
                 </div>
                 <p>English</p>
@@ -191,7 +209,7 @@ function About() {
               <li>
                 <div className="circle">
                   <div className="langValue">
-                    85%
+                    Advanced
                   </div>
                 </div>
                 <p>Turkish</p>

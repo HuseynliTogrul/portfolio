@@ -42,5 +42,8 @@ button {
 
 .App {
   color: white;
+  /* background-image: url("./images/backImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
   /* background-color: black; */
 }

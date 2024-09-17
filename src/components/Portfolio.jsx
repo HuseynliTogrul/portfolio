@@ -4,7 +4,10 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/module
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import "../css/Portfolio.css";
-import vegist from "../images/project1.png"
+import todo from "../images/todo.png"
+import map from "../images/map.png"
+import imageSearch from "../images/imageSearch.png"
+// import vegist from "../images/project1.png"
 
 export default function Portfolio() {
   return (
@@ -44,29 +47,47 @@ export default function Portfolio() {
       >
         <SwiperSlide>
           {/* <a href="https://github.com/HuseynliTogrul/Vegist-Final-Front.git"> */}
-          <img className="slideImg"
-            src="https://swiperjs.com/demos/images/nature-1.jpg"
-            // src={vegist}
-            alt="Nature 1"
-          />
+          <a href="https://github.com/HuseynliTogrul/mapProject.git">
+            {/* <img className="slideImg"
+              src={todo}
+              // src={vegist}
+              alt="Nature 1"
+            /> */}
+            <img
+              src="https://swiperjs.com/demos/images/nature-5.jpg"
+              alt="Nature 5"
+            />
+          </a>
           {/* </a> */}
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-2.jpg"
-            alt="Nature 2"
-          />
+          <a href="https://github.com/HuseynliTogrul/todo-app.git">
+            {/* <img
+              src={map}
+              alt="Nature 2"
+            /> */}
+            <img
+              src="https://swiperjs.com/demos/images/nature-5.jpg"
+              alt="Nature 5"
+            />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://github.com/HuseynliTogrul/ImageSearch.git">
+            {/* <img
+              src={imageSearch}
+              alt="Nature 3"
+            /> */}
+            <img
+              src="https://swiperjs.com/demos/images/nature-5.jpg"
+              alt="Nature 5"
+            />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-3.jpg"
-            alt="Nature 3"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-4.jpg"
-            alt="Nature 4"
+            src="https://swiperjs.com/demos/images/nature-5.jpg"
+            alt="Nature 5"
           />
         </SwiperSlide>
         <SwiperSlide>
