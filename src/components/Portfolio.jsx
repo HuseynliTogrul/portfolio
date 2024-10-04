@@ -7,12 +7,14 @@ import "../css/Portfolio.css";
 import todo from "../images/todo.png"
 import map from "../images/map.png"
 import imageSearch from "../images/imageSearch.png"
-// import vegist from "../images/project1.png"
+import startStopTime from "../images/startStopTime.png"
+import vegist from "../images/vegist.png"
 
 export default function Portfolio() {
   return (
     <>
       <Swiper
+        loop={true}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -46,55 +48,44 @@ export default function Portfolio() {
         className="mySwiper"
       >
         <SwiperSlide>
-          {/* <a href="https://github.com/HuseynliTogrul/Vegist-Final-Front.git"> */}
-          <a href="https://github.com/HuseynliTogrul/mapProject.git">
-            {/* <img className="slideImg"
-              src={todo}
-              // src={vegist}
-              alt="Nature 1"
-            /> */}
-            <img
-              src="https://swiperjs.com/demos/images/nature-5.jpg"
-              alt="Nature 5"
-            />
-          </a>
-          {/* </a> */}
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://github.com/HuseynliTogrul/todo-app.git">
-            {/* <img
+          <a href="https://map-project-brown.vercel.app/">
+            <img className="slideImg"
               src={map}
-              alt="Nature 2"
-            /> */}
-            <img
-              src="https://swiperjs.com/demos/images/nature-5.jpg"
-              alt="Nature 5"
+              alt="map"
             />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://github.com/HuseynliTogrul/ImageSearch.git">
-            {/* <img
+          <a href="https://todoapp-plum-six.vercel.app/">
+            <img className="slideImg"
+              src={todo}
+              alt="todo"
+            />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://imagesearch-woad.vercel.app/">
+            <img className="slideImg"
               src={imageSearch}
-              alt="Nature 3"
-            /> */}
-            <img
-              src="https://swiperjs.com/demos/images/nature-5.jpg"
-              alt="Nature 5"
+              alt="imageSearch"
             />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-5.jpg"
-            alt="Nature 5"
-          />
+          <a href="https://start-stop-time.vercel.app/">
+            <img className="slideImg"
+              src={startStopTime}
+              alt="startStopTime"
+            />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-5.jpg"
-            alt="Nature 5"
-          />
+          <a href="https://vegistfinalfront.vercel.app/">
+            <img className="slideImg"
+              src={vegist}
+              alt="vegist"
+            />
+          </a>
         </SwiperSlide>
         <div className="sliderIcon">
           <FaChevronLeft className="swiperIcon swiper-button-prev" />

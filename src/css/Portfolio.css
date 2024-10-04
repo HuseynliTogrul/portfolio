@@ -6,6 +6,7 @@
 
 .slideImg {
   height: 100%;
+  border-radius: 5px;
 }
 
 .swiper {
@@ -49,4 +50,8 @@
 .swiperIcon:hover {
   color: #eb4a4c;
   cursor: pointer;
+}
+
+.swiper-wrapper .swiper-slide {
+  height: 100%;
 }
