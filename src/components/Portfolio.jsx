@@ -9,6 +9,7 @@ import map from "../images/map.png"
 import imageSearch from "../images/imageSearch.png"
 import startStopTime from "../images/startStopTime.png"
 import vegist from "../images/vegist.png"
+import quizApp from "../images/quizApp.png"
 
 export default function Portfolio() {
   return (
@@ -47,44 +48,58 @@ export default function Portfolio() {
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide className="swiperSlide">
           <a href="https://map-project-brown.vercel.app/">
-            <img className="slideImg"
+            <p>Map</p>
+            {/* <img className="slideImg"
               src={map}
               alt="map"
-            />
+            /> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiperSlide">
           <a href="https://todoapp-plum-six.vercel.app/">
-            <img className="slideImg"
+            <p>Todo App</p>
+            {/* <img className="slideImg"
               src={todo}
               alt="todo"
-            />
+            /> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiperSlide">
           <a href="https://imagesearch-woad.vercel.app/">
-            <img className="slideImg"
+            <p>Image Search</p>
+            {/* <img className="slideImg"
               src={imageSearch}
               alt="imageSearch"
-            />
+            /> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiperSlide">
           <a href="https://start-stop-time.vercel.app/">
-            <img className="slideImg"
+            <p>Start_Stop Time</p>
+            {/* <img className="slideImg"
               src={startStopTime}
               alt="startStopTime"
-            />
+            /> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiperSlide">
           <a href="https://vegistfinalfront.vercel.app/">
-            <img className="slideImg"
+            <p>Vegist Website</p>
+            {/* <img className="slideImg"
               src={vegist}
               alt="vegist"
-            />
+            /> */}
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="swiperSlide">
+          <a href="https://quizapp-seven-dun.vercel.app/">
+            <p>Quiz App</p>
+            {/* <img className="quizApp"
+              src={quizApp}
+              alt="quizApp"
+            /> */}
           </a>
         </SwiperSlide>
         <div className="sliderIcon">
