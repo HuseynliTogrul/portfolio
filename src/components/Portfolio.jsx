@@ -51,55 +51,36 @@ export default function Portfolio() {
         <SwiperSlide className="swiperSlide">
           <a href="https://map-project-brown.vercel.app/">
             <p>Map</p>
-            {/* <img className="slideImg"
-              src={map}
-              alt="map"
-            /> */}
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
           <a href="https://todoapp-plum-six.vercel.app/">
             <p>Todo App</p>
-            {/* <img className="slideImg"
-              src={todo}
-              alt="todo"
-            /> */}
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
           <a href="https://imagesearch-woad.vercel.app/">
             <p>Image Search</p>
-            {/* <img className="slideImg"
-              src={imageSearch}
-              alt="imageSearch"
-            /> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        {/* <SwiperSlide className="swiperSlide">
           <a href="https://start-stop-time.vercel.app/">
-            <p>Start_Stop Time</p>
-            {/* <img className="slideImg"
-              src={startStopTime}
-              alt="startStopTime"
-            /> */}
+            <p>Start_Stop Time</p>-
           </a>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide className="swiperSlide">
           <a href="https://vegistfinalfront.vercel.app/">
             <p>Vegist Website</p>
-            {/* <img className="slideImg"
-              src={vegist}
-              alt="vegist"
-            /> */}
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
           <a href="https://quizapp-seven-dun.vercel.app/">
             <p>Quiz App</p>
-            {/* <img className="quizApp"
-              src={quizApp}
-              alt="quizApp"
-            /> */}
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="swiperSlide">
+          <a href="https://searchfilter-orcin.vercel.app/">
+            <p>Search Filter</p>
           </a>
         </SwiperSlide>
         <div className="sliderIcon">
