@@ -83,6 +83,11 @@ export default function Portfolio() {
             <p>Search Filter</p>
           </a>
         </SwiperSlide>
+        <SwiperSlide className="swiperSlide">
+          <a href=" https://weatherapp-ebon-one.vercel.app/">
+            <p>Weather Forecast App</p>
+          </a>
+        </SwiperSlide>
         <div className="sliderIcon">
           <FaChevronLeft className="swiperIcon swiper-button-prev" />
           <FaChevronRight className="swiperIcon swiper-button-next" />
