@@ -60,14 +60,9 @@ export default function Portfolio() {
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
           <a href="https://imagesearch-woad.vercel.app/">
-            <p>Image Search</p>
+            <p>Image_Search App</p>
           </a>
         </SwiperSlide>
-        {/* <SwiperSlide className="swiperSlide">
-          <a href="https://start-stop-time.vercel.app/">
-            <p>Start_Stop Time</p>-
-          </a>
-        </SwiperSlide> */}
         <SwiperSlide className="swiperSlide">
           <a href="https://vegistfinalfront.vercel.app/">
             <p>Vegist Website</p>
@@ -80,12 +75,27 @@ export default function Portfolio() {
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
           <a href="https://searchfilter-orcin.vercel.app/">
-            <p>Search Filter</p>
+            <p>Search_Filter App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
           <a href=" https://weatherapp-ebon-one.vercel.app/">
-            <p>Weather Forecast App</p>
+            <p>Weather_Forecast App</p>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="swiperSlide">
+          <a href="https://calcapp-olive.vercel.app/">
+            <p>Calculator App</p>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="swiperSlide">
+          <a href="https://searchgithubprofile-eta.vercel.app/">
+            <p>Search_GitHub_Profile App</p>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="swiperSlide">
+          <a href="https://tic-tac-toe-nine-flax.vercel.app/">
+            <p>Tic_Tac_Toe App</p>
           </a>
         </SwiperSlide>
         <div className="sliderIcon">
