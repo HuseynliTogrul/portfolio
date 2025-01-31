@@ -4,12 +4,6 @@ import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/module
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import "../css/Portfolio.css";
-import todo from "../images/todo.png"
-import map from "../images/map.png"
-import imageSearch from "../images/imageSearch.png"
-import startStopTime from "../images/startStopTime.png"
-import vegist from "../images/vegist.png"
-import quizApp from "../images/quizApp.png"
 
 export default function Portfolio() {
   return (
@@ -19,7 +13,6 @@ export default function Portfolio() {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        // slidesPerView={3}
         initialSlide={1}
         coverflowEffect={{
           rotate: 50,
@@ -28,10 +21,10 @@ export default function Portfolio() {
           modifier: 1,
           slideShadows: true,
         }}
-        autoplay={{
-          delay: 2000,
-          disableOnInteraction: false
-        }}
+        // autoplay={{
+        //   delay: 2000,
+        //   disableOnInteraction: false
+        // }}
         pagination={false}
         navigation={{
           nextEl: ".swiper-button-next",
@@ -48,54 +41,54 @@ export default function Portfolio() {
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide map">
           <a href="https://map-project-brown.vercel.app/">
-            <p>Map</p>
+            {/* <p>Map Project</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide todo">
           <a href="https://todoapp-plum-six.vercel.app/">
-            <p>Todo App</p>
+            {/* <p>Todo App</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide imageSearch">
           <a href="https://imagesearch-woad.vercel.app/">
-            <p>Image_Search App</p>
+            {/* <p>Image_Search App</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide vegist">
           <a href="https://vegistfinalfront.vercel.app/">
-            <p>Vegist Website</p>
+            {/* <p>Vegist Website</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide quiz">
           <a href="https://quizapp-seven-dun.vercel.app/">
-            <p>Quiz App</p>
+            {/* <p>Quiz App</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
-          <a href="https://searchfilter-orcin.vercel.app/">
-            <p>Search_Filter App</p>
-          </a>
-        </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide weather">
           <a href=" https://weatherapp-ebon-one.vercel.app/">
-            <p>Weather_Forecast App</p>
+            {/* <p>Weather_Forecast App</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide calculator">
           <a href="https://calcapp-olive.vercel.app/">
-            <p>Calculator App</p>
+            {/* <p>Calculator App</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide searchGitHubProfile">
           <a href="https://searchgithubprofile-eta.vercel.app/">
-            <p>Search_GitHub_Profile App</p>
+            {/* <p>Search_GitHub_Profile App</p> */}
           </a>
         </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
+        <SwiperSlide className="swiperSlide tictactoe">
           <a href="https://tic-tac-toe-nine-flax.vercel.app/">
-            <p>Tic_Tac_Toe App</p>
+            {/* <p>Tic_Tac_Toe App</p> */}
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="swiperSlide taskManager">
+          <a href="https://github.com/HuseynliTogrul/task_manager_project.git">
+            {/* <p>Task Manager Project</p> */}
           </a>
         </SwiperSlide>
         <div className="sliderIcon">

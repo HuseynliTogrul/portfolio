@@ -5,7 +5,6 @@
 @import "swiper/css/navigation";
 
 .slideImg {
-  /* height: 100%; */
   border-radius: 5px;
 }
 
@@ -66,4 +65,44 @@
 
 .swiperSlide:hover {
   background-color: #ec3033;
+}
+
+.map {
+  background-image: url("../images/map.jpg");
+}
+
+.todo {
+  background-image: url("../images/todo.avif");
+}
+
+.imageSearch {
+  background-image: url("../images/search.webp");
+}
+
+.vegist {
+  background-image: url("../images/vegist.jpg");
+}
+
+.quiz {
+  background-image: url("../images/quiz.jpg");
+}
+
+.weather {
+  background-image: url("../images/weather.jpg");
+}
+
+.calculator {
+  background-image: url("../images/calc.jpg");
+}
+
+.tictactoe {
+  background-image: url("../images/tictactoe.webp");
+}
+
+.searchGitHubProfile {
+  background-image: url("../images/SearchGitHubProfile.webp");
+}
+
+.taskManager {
+  background-image: url("../images/taskManager.jpg");
 }
