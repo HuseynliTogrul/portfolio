@@ -1,0 +1,13 @@
+[
+  { "name": "Html", "percentage": 95 },
+  { "name": "Css", "percentage": 95 },
+  { "name": "Js", "percentage": 85 },
+  { "name": "React js", "percentage": 70 },
+  { "name": "Bootstrap", "percentage": 95 },
+  { "name": "Tailwind", "percentage": 95 },
+  { "name": "Sass", "percentage": 95 },
+  { "name": "Typescript js", "percentage": 60 },
+  { "name": "Vite js", "percentage": 70 },
+  { "name": "Material UI", "percentage": 90 },
+  { "name": "Ant Design", "percentage": 95 }
+]

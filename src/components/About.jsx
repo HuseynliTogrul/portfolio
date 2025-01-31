@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import aboutImg from "../images/aboutImg.jpg"
+import aboutImg from "../images/aboutImg.jpeg";
+import aboutProfile from "../images/aboutProfile.png";
 import "../css/About.css"
 import { MdAccountCircle } from "react-icons/md";
 import { MdDateRange } from "react-icons/md";
@@ -8,6 +9,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import Cv from "../images/Cv.pdf"
+import skills from "../skills.json";
 
 function About() {
 
@@ -16,7 +18,6 @@ function About() {
     const aboutInfo = document.querySelector(".aboutInfo");
     const aboutModal = document.querySelector(".aboutModal");
     const navbar = document.querySelector(".navbar");
-    const App = document.querySelector(".App")
     const closeIcon = document.querySelector(".closeIcon")
     const container = document.querySelector(".container")
 
@@ -35,8 +36,7 @@ function About() {
       container.style.paddingTop = "0";
       container.style.minHeight = "100vh";
     })
-  }, []);
-
+  }, [])
 
   return (
     <div className='about'>
@@ -60,7 +60,7 @@ function About() {
         <div className="aboutMeLeft">
           <div className="author">
             <div className="aboutMeImg">
-              <img src={aboutImg} alt="aboutImg" />
+              <img src={aboutProfile} alt="aboutImg" />
             </div>
             <h3>Huseynli <span>Togrul</span></h3>
             <h4><span>Web</span> Developer</h4>
@@ -94,97 +94,29 @@ function About() {
         <div className="aboutMeRight">
           <div className="aboutMe">
             <h3>About <span>Me</span></h3>
-            <p>Hello everybody!
+            <p>
               I am <span>Huseynli Togrul.</span>
-              I know office programs and the Fronte-End field.
-              I studied Fronte-End in Algorithmic and Pragmatech courses.
-              I studied Full-Stack at Code Academy.I have experience in Embawood MMC company
+              I graduated from Azerbaijan State Oil and Industry University with a degree in
+              Computer Engineering. I am currently pursuing a Master's degree in
+              Cybersecurity at Azerbaijan Technical University. I have experience in frontend
+              and have improved my knowledge in courses such as Code Academy,
+              Algorithmic, Pragmatech. I also have practical experience at Embawood MMC
             </p>
           </div>
           <div className="progSkills">
             <h3>Programming <span>Skills</span></h3>
             <ul>
-              <li>
-                <div className="progValue">
-                  <p>Html</p>
-                  <span>95%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>Css</p>
-                  <span>95%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>Js</p>
-                  <span>85%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>React js</p>
-                  <span>70%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>Bootstrap</p>
-                  <span>95%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>Tailwind</p>
-                  <span>95%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>Sass</p>
-                  <span>95%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>Next js</p>
-                  <span>50%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
-              <li>
-                <div className="progValue">
-                  <p>Vite js</p>
-                  <span>70%</span>
-                </div>
-                <div className="backg">
-                  <div className="progBackg"></div>
-                </div>
-              </li>
+              {skills.map((skill, index) => (
+                <li key={index}>
+                  <div className="progValue">
+                    <p>{skill.name}</p>
+                    <span>{skill.percentage}%</span>
+                  </div>
+                  <div className="backg">
+                    <div className="progBackg" style={{ width: `${skill.percentage}%` }}></div>
+                  </div>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="langSkills">
@@ -246,7 +178,6 @@ function About() {
         </div>
       </div>
     </div>
-
   )
 }
 
