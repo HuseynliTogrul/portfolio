@@ -61,10 +61,26 @@
   transition: all 0.3s ease;
   font-size: 25px;
   background-color: #8080803b;
+  position: relative;
+}
+
+.swiperSlide p {
+  position: absolute;
+  top: -45px;
+  display: none;
+}
+
+.swiperSlide a {
+  width: 100%;
+  height: 400px;
 }
 
 .swiperSlide:hover {
   background-color: #ec3033;
+}
+
+.swiperSlide:hover .swiperText {
+  display: block;
 }
 
 .map {

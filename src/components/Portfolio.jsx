@@ -43,52 +43,52 @@ export default function Portfolio() {
       >
         <SwiperSlide className="swiperSlide map">
           <a href="https://map-project-brown.vercel.app/">
-            {/* <p>Map Project</p> */}
+            <p className="swiperText">Map Project</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide todo">
           <a href="https://todoapp-plum-six.vercel.app/">
-            {/* <p>Todo App</p> */}
+            <p className="swiperText">Todo App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide imageSearch">
           <a href="https://imagesearch-woad.vercel.app/">
-            {/* <p>Image_Search App</p> */}
+            <p className="swiperText">Image_Search App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide vegist">
           <a href="https://vegistfinalfront.vercel.app/">
-            {/* <p>Vegist Website</p> */}
+            <p className="swiperText">Vegist Website</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide quiz">
           <a href="https://quizapp-seven-dun.vercel.app/">
-            {/* <p>Quiz App</p> */}
+            <p className="swiperText">Quiz App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide weather">
           <a href=" https://weatherapp-ebon-one.vercel.app/">
-            {/* <p>Weather_Forecast App</p> */}
+            <p className="swiperText">Weather_Forecast App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide calculator">
           <a href="https://calcapp-olive.vercel.app/">
-            {/* <p>Calculator App</p> */}
+            <p className="swiperText">Calculator App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide searchGitHubProfile">
           <a href="https://searchgithubprofile-eta.vercel.app/">
-            {/* <p>Search_GitHub_Profile App</p> */}
+            <p className="swiperText">Search_GitHub_Profile App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide tictactoe">
           <a href="https://tic-tac-toe-nine-flax.vercel.app/">
-            {/* <p>Tic_Tac_Toe App</p> */}
+            <p className="swiperText">Tic_Tac_Toe App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide taskManager">
           <a href="https://github.com/HuseynliTogrul/task_manager_project.git">
-            {/* <p>Task Manager Project</p> */}
+            <p className="swiperText">Task Manager Project</p>
           </a>
         </SwiperSlide>
         <div className="sliderIcon">
