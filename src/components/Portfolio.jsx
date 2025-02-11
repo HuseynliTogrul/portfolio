@@ -1,6 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
+import {
+  EffectCoverflow,
+  Pagination,
+  Navigation,
+  Autoplay,
+} from "swiper/modules";
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import "../css/Portfolio.css";
@@ -21,10 +26,10 @@ export default function Portfolio() {
           modifier: 1,
           slideShadows: true,
         }}
-        // autoplay={{
-        //   delay: 2000,
-        //   disableOnInteraction: false
-        // }}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         pagination={false}
         navigation={{
           nextEl: ".swiper-button-next",
@@ -44,6 +49,11 @@ export default function Portfolio() {
         <SwiperSlide className="swiperSlide map">
           <a href="https://map-project-brown.vercel.app/">
             <p className="swiperText">Map Project</p>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide className="swiperSlide emb">
+          <a href="https://embakitchen.az/">
+            <p className="swiperText">Embakitchen</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide todo">
@@ -95,8 +105,7 @@ export default function Portfolio() {
           <FaChevronLeft className="swiperIcon swiper-button-prev" />
           <FaChevronRight className="swiperIcon swiper-button-next" />
         </div>
-      </Swiper >
+      </Swiper>
     </>
   );
 }
-

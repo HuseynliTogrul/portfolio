@@ -87,6 +87,10 @@
   background-image: url("../images/map.jpg");
 }
 
+.emb {
+  background-image: url("../images/emb.webp");
+}
+
 .todo {
   background-image: url("../images/todo.avif");
 }
