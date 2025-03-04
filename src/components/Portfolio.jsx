@@ -52,7 +52,7 @@ export default function Portfolio() {
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide emb">
-          <a href="https://embakitchen.az/">
+          <a href="https://staging.embakitchen.az/az">
             <p className="swiperText">Embakitchen</p>
           </a>
         </SwiperSlide>
@@ -92,12 +92,12 @@ export default function Portfolio() {
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide tictactoe">
-          <a href="https://tic-tac-toe-nine-flax.vercel.app/">
+          <a href="https://tic-tac-toe-eight-lake.vercel.app/">
             <p className="swiperText">Tic_Tac_Toe App</p>
           </a>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide taskManager">
-          <a href="https://github.com/HuseynliTogrul/task_manager_project.git">
+          <a href="https://task-manager-project-sigma.vercel.app">
             <p className="swiperText">Task Manager Project</p>
           </a>
         </SwiperSlide>
